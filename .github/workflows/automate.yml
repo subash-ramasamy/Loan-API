@@ -6,6 +6,8 @@ name: Continious Integration of Loan API
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+  - branches: [ "main" ]
 
 jobs:
   build:
