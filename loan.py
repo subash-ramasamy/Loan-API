@@ -14,7 +14,7 @@ def home():
     return "<h1>Loan Approval Application V2</h1>"
 
 @app.route('/ping')
-def home():
+def ping():
     return {"message": "Hey there please have a look on this second version"}
 
 
